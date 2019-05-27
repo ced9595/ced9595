@@ -1,0 +1,597 @@
+
+background{
+
+    height: 100%;
+
+}
+
+.navbar {
+    background-color: #ff0000;
+}
+.navbar .navbar-brand {
+    color: #ffffff;
+}
+.navbar .navbar-brand:hover,
+.navbar .navbar-brand:focus {
+    color: #000000;
+}
+.navbar .navbar-text {
+    color: #ffffff;
+}
+.navbar .navbar-text a {
+    color: #000000;
+}
+.navbar .navbar-text a:hover,
+.navbar .navbar-text a:focus {
+    color: #000000;
+}
+.navbar .navbar-nav .nav-link {
+    color: #ffffff;
+    border-radius: .25rem;
+    margin: 0 0.25em;
+}
+.navbar .navbar-nav .nav-link:not(.disabled):hover,
+.navbar .navbar-nav .nav-link:not(.disabled):focus {
+    color: #000000;
+}
+.navbar .navbar-nav .nav-item.active .nav-link,
+.navbar .navbar-nav .nav-item.active .nav-link:hover,
+.navbar .navbar-nav .nav-item.active .nav-link:focus,
+.navbar .navbar-nav .nav-item.show .nav-link,
+.navbar .navbar-nav .nav-item.show .nav-link:hover,
+.navbar .navbar-nav .nav-item.show .nav-link:focus {
+    color: #000000;
+    background-color: #989898;
+}
+.navbar .navbar-toggle {
+    border-color: #989898;
+}
+.navbar .navbar-toggle:hover,
+.navbar .navbar-toggle:focus {
+    background-color: #989898;
+}
+
+.navbar .navbar-collapse,
+.navbar .navbar-form {
+    border-color: #ffffff;
+}
+.navbar .navbar-link {
+    color: #ffffff;
+}
+.navbar .navbar-link:hover {
+    color: #000000;
+}
+
+@media (max-width: 575px) {
+    .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item {
+        color: #ffffff;
+    }
+    .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+    .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+        color: #000000;
+    }
+    .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item.active {
+        color: #000000;
+        background-color: #989898;
+    }
+}
+
+@media (max-width: 767px) {
+    .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item {
+        color: #ffffff;
+    }
+    .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+    .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+        color: #000000;
+    }
+    .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item.active {
+        color: #000000;
+        background-color: #989898;
+    }
+}
+
+@media (max-width: 991px) {
+    .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item {
+        color: #ffffff;
+    }
+    .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+    .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+        color: #000000;
+    }
+    .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item.active {
+        color: #000000;
+        background-color: #989898;
+    }
+}
+
+@media (max-width: 1199px) {
+    .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item {
+        color: #ffffff;
+    }
+    .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+    .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+        color: #000000;
+    }
+    .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item.active {
+        color: #000000;
+        background-color: #989898;
+    }
+}
+
+.navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item {
+    color: #ffffff;
+}
+.navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+.navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+    color: #000000;
+}
+.navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item.active {
+    color: #000000;
+    background-color: #989898;
+}
+
+
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url("https://img.icons8.com/ios/50/000000/circled-menu.png");}
+
+
+.espace{
+    padding-top: 50px;
+    padding-bottom: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.rouge{
+    background-color: red;
+}
+
+
+hr{
+
+    padding-bottom: 30px;
+    padding-top: 30px;
+    max-width: 50px;
+    border-width: 3px;
+    border-color: black;
+}
+
+
+
+@media screen and (min-width: 768px) and (max-width: 991.98px){
+
+    hr{
+
+        border-color: blue;
+    }
+    img.zoom {
+
+        -webkit-transition: all .2s ease-in-out;
+        -moz-transition: all .2s ease-in-out;
+        -o-transition: all .2s ease-in-out;
+        -ms-transition: all .2s ease-in-out;
+
+
+    }
+
+    .transition {
+        -webkit-transform: scale(1.8);
+        -moz-transform: scale(1.8);
+        -o-transform: scale(1.8);
+        transform: scale(1.8);
+    }
+    .zoom{
+        padding: 50px;
+        transition: transform .2s;
+        width: 200px;
+        height: 200px;
+        margin: 0 auto;
+
+    }
+
+    .zoom:hover {
+        transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+        z-index: 20;
+
+    }
+    p{
+        background-color: red ;
+    }
+
+    button{
+        background-color: black;
+        border: none;
+        color: white;
+        padding: 5px 12px;
+        text-align: center;
+        text-decoration : none;
+        display:inline-block;
+        font-size: 16px
+
+    }
+
+
+
+
+
+    @keyframes fadeInUp {
+        from {
+            transform: translate3d(0,40px,0)
+        }
+
+        to {
+            transform: translate3d(0,0,0);
+            opacity: 1
+        }
+    }
+
+    @-webkit-keyframes fadeInUp {
+        from {
+            transform: translate3d(0,40px,0)
+        }
+
+        to {
+            transform: translate3d(0,0,0);
+            opacity: 1
+        }
+    }
+
+    .animated {
+        animation-duration: 1s;
+        animation-fill-mode: both;
+        -webkit-animation-duration: 1s;
+        -webkit-animation-fill-mode: both
+    }
+
+    .animatedFadeInUp {
+        opacity: 0
+    }
+
+    .fadeInUp {
+        opacity: 0;
+        animation-name: fadeInUp;
+        -webkit-animation-name: fadeInUp;
+    }
+
+
+
+    .navbar-light .navbar-toggler-icon {
+        background-image: url("https://img.icons8.com/ios/50/000000/circled-menu.png");}
+
+
+    .espace{
+        padding-top: 50px;
+        padding-bottom: 100px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .rouge{
+        background-color: red;
+    }
+
+
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199.98px) {
+
+    hr{
+         border-color: white;
+    }
+    img.zoom {
+
+        -webkit-transition: all .2s ease-in-out;
+        -moz-transition: all .2s ease-in-out;
+        -o-transition: all .2s ease-in-out;
+        -ms-transition: all .2s ease-in-out;
+
+
+    }
+
+    .transition {
+        -webkit-transform: scale(1.8);
+        -moz-transform: scale(1.8);
+        -o-transform: scale(1.8);
+        transform: scale(1.8);
+    }
+    .zoom{
+        padding: 50px;
+        transition: transform .2s;
+        width: 200px;
+        height: 200px;
+        margin: 0 auto;
+
+    }
+
+    .zoom:hover {
+        transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+        z-index: 20;
+
+    }
+    p{
+        background-color: red ;
+    }
+
+    button{
+        background-color: black;
+        border: none;
+        color: white;
+        padding: 5px 12px;
+        text-align: center;
+        text-decoration : none;
+        display:inline-block;
+        font-size: 16px
+
+    }
+
+
+
+
+
+    @keyframes fadeInUp {
+        from {
+            transform: translate3d(0,40px,0)
+        }
+
+        to {
+            transform: translate3d(0,0,0);
+            opacity: 1
+        }
+    }
+
+    @-webkit-keyframes fadeInUp {
+        from {
+            transform: translate3d(0,40px,0)
+        }
+
+        to {
+            transform: translate3d(0,0,0);
+            opacity: 1
+        }
+    }
+
+    .animated {
+        animation-duration: 1s;
+        animation-fill-mode: both;
+        -webkit-animation-duration: 1s;
+        -webkit-animation-fill-mode: both
+    }
+
+    .animatedFadeInUp {
+        opacity: 0
+    }
+
+    .fadeInUp {
+        opacity: 0;
+        animation-name: fadeInUp;
+        -webkit-animation-name: fadeInUp;
+    }
+
+
+
+    .navbar-light .navbar-toggler-icon {
+        background-image: url("https://img.icons8.com/ios/50/000000/circled-menu.png");}
+
+
+    .espace{
+        padding-top: 50px;
+        padding-bottom: 100px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .rouge{
+        background-color: red;
+    }
+
+
+
+}
+
+@media screen and (min-width: 1200px) {
+
+    hr{
+        border-color: white;
+    }
+    img.zoom {
+
+        -webkit-transition: all .2s ease-in-out;
+        -moz-transition: all .2s ease-in-out;
+        -o-transition: all .2s ease-in-out;
+        -ms-transition: all .2s ease-in-out;
+
+
+    }
+
+    .transition {
+        -webkit-transform: scale(1.8);
+        -moz-transform: scale(1.8);
+        -o-transform: scale(1.8);
+        transform: scale(1.8);
+    }
+    .zoom{
+        padding: 50px;
+        transition: transform .2s;
+        width: 200px;
+        height: 200px;
+        margin: 0 auto;
+
+    }
+
+    .zoom:hover {
+        transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+        z-index: 20;
+
+    }
+    p{
+        background-color: red ;
+    }
+
+    button{
+        background-color: black;
+        border: none;
+        color: white;
+        padding: 5px 12px;
+        text-align: center;
+        text-decoration : none;
+        display:inline-block;
+        font-size: 16px
+
+    }
+
+
+
+
+
+    @keyframes fadeInUp {
+        from {
+            transform: translate3d(0,40px,0)
+        }
+
+        to {
+            transform: translate3d(0,0,0);
+            opacity: 1
+        }
+    }
+
+    @-webkit-keyframes fadeInUp {
+        from {
+            transform: translate3d(0,40px,0)
+        }
+
+        to {
+            transform: translate3d(0,0,0);
+            opacity: 1
+        }
+    }
+
+    .animated {
+        animation-duration: 1s;
+        animation-fill-mode: both;
+        -webkit-animation-duration: 1s;
+        -webkit-animation-fill-mode: both
+    }
+
+    .animatedFadeInUp {
+        opacity: 0
+    }
+
+    .fadeInUp {
+        opacity: 0;
+        animation-name: fadeInUp;
+        -webkit-animation-name: fadeInUp;
+    }
+
+
+
+    .navbar-light .navbar-toggler-icon {
+        background-image: url("https://img.icons8.com/ios/50/000000/circled-menu.png");}
+
+
+    .espace{
+        padding-top: 50px;
+        padding-bottom: 100px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .rouge{
+        background-color: red;
+    }
+
+}
+
+
+img.zoom {
+
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+
+
+}
+
+.transition {
+    -webkit-transform: scale(1.8);
+    -moz-transform: scale(1.8);
+    -o-transform: scale(1.8);
+    transform: scale(1.8);
+}
+.zoom{
+    padding: 50px;
+    transition: transform .2s;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+
+}
+
+.zoom:hover {
+    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    z-index: 20;
+
+}
+p{
+    background-color: red ;
+}
+
+button{
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 5px 12px;
+    text-align: center;
+    text-decoration : none;
+    display:inline-block;
+    font-size: 16px
+
+}
+
+
+
+
+
+@keyframes fadeInUp {
+    from {
+        transform: translate3d(0,40px,0)
+    }
+
+    to {
+        transform: translate3d(0,0,0);
+        opacity: 1
+    }
+}
+
+@-webkit-keyframes fadeInUp {
+    from {
+        transform: translate3d(0,40px,0)
+    }
+
+    to {
+        transform: translate3d(0,0,0);
+        opacity: 1
+    }
+}
+
+.animated {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-fill-mode: both
+}
+
+.animatedFadeInUp {
+    opacity: 0
+}
+
+.fadeInUp {
+    opacity: 0;
+    animation-name: fadeInUp;
+    -webkit-animation-name: fadeInUp;
+}
+
+
+
+
